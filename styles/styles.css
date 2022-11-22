@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: black;
+}
+
+.z-index{
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.red{
+    position: absolute;
+    z-index: 1;
+    width: 460px;
+    height: 105px;
+    margin-top: 300px;
+}
+
+.pink1{
+    position: absolute;
+    z-index: 2;
+    width: 374px;
+    height: 129px;
+    margin-top: 350px;
+}
+.pink2{
+    position: absolute;
+    z-index: 3;
+    margin-top: 200px;
+}
+
+.light-pink1{
+    position: absolute;
+    z-index: 10;
+    width: 266px;
+    height: 119px;
+    margin-top: 400px;
+}
+.light-pink2{
+    position: relative;
+    z-index: 10;
+    width: 266px;
+    height: 119px;
+    margin-top: 150px;
+}
